@@ -5,6 +5,7 @@ import RealityMonitor from './components/RealityMonitor';
 import MorningReport from './components/MorningReport';
 import NotificationCentre from './components/NotificationCentre';
 import CompanionPanel from './components/CompanionPanel';
+import CompanionSharePanel from './components/CompanionSharePanel';
 
 createRoot(document.getElementById('root')).render(
 <main className='app-shell'>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
 <MorningReport overnightEvents={[]}/>
 <NotificationCentre/>
 <CompanionPanel/>
+<CompanionSharePanel/>
 <RealityMonitor/>
 </main>
 );
